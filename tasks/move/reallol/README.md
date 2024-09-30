@@ -21,6 +21,7 @@ clang++-18 main.cpp -o reallol -std=c++11 -fsanitize=address
 ## Решение
 <details>
 <summary>Решение: </summary>
+  
 1. создадим двух пользователей (пусть first и second)
   
 2. подпишем second на first
