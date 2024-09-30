@@ -7,3 +7,8 @@
 ```shell
 clang++-18 -std=c++17 -O0 -Wall main.cpp -o /tmp/a.out
 ```
+
+<details>
+  <summary>Решение: </summary>
+  Обратите внимание на возможное переполнение типа int. В качестве теста подойдёт 4 и 2^30.
+</details>
