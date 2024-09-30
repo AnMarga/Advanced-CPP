@@ -18,3 +18,13 @@ clang++-18 main.cpp -o reallol -std=c++11 -fsanitize=address
 {echo reallol; cat input.txt} | nc -N crashme.cpp-hse.net 9090
 ```
 
+## Решение
+<details>
+  <summary>Решение: </summary>
+  1. создадим двух ползователей (пусть first и second)
+  2. подпишем second на first
+  3. создадим для first 17 локаций
+  4. попытаемся вывести view feed для second
+
+  В итоге получим ошибку. 
+</details>
