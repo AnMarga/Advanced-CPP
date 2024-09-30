@@ -22,8 +22,11 @@ clang++-18 main.cpp -o reallol -std=c++11 -fsanitize=address
 <details>
   <summary>Решение: </summary>
   1. создадим двух ползователей (пусть first и second)
+  
   2. подпишем second на first
+  
   3. создадим для first 17 локаций
+  
   4. попытаемся вывести view feed для second
 
   В итоге получим ошибку. 
